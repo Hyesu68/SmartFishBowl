@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/alarm"
+            android:title="통합 모니터링" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/play"
+            android:title="실시간 어항 감상" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/fish"
+            android:title="물고기 움직임 조회" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/waterdrop"
+            android:title="어항 환경 조회" />
+        <item
+            android:id="@+id/nav_dictionary"
+            android:icon="@drawable/dictionary"
+            android:title="물고기 사전" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
